@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d24217e313cb546b271efdb76b5399, type: 3}
+  m_Name: GameplaySettings
+  m_EditorClassIdentifier: 
+  ShipDataModel:
+    ShipShieldDuration: 1
+    AutoFireDelay: 0.25
+    ShipMaxMovementSpeed: 3
+    ShipMovementAcceleration: 6
+    ShipDeacceleration: 1.5
+    ShipRotationSpeed: 160
+    RocketSpeed: 12
+    RocketLifetime: 0.7
+  AsteroidsDataModel:
+    MinMovementSpeed: 1
+    MaxMovementSpeed: 2.5
+    MinScale: 0.25
+    MaxScale: 0.5
+  LevelData:
+    Lives: 3
+    MaxAsteroidLevel: 4
+    MaxAsteroidsToSpawn: 10
+    SpawnAsteroidsInitially: 3
+    MinAsteroidSpawnDelay: 7
+    MaxAsteroidSpawnDelay: 10
+    AsteroidKillScore: 10
